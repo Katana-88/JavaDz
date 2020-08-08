@@ -6,7 +6,7 @@ public class ArrayWork {
 
 	public static void main(String[] args) {
 	
-		//Задание один. Нечетные числа от 1 до 99
+		//Task 1. Odd numbers from 1 to 99
 		Integer [] arr = new Integer[50];
 		int j=0;
 		
@@ -31,7 +31,7 @@ public class ArrayWork {
 		System.out.println(arrToStringReverse);		
 		System.out.print("\n");
 		
-		//Задание два. Числа Фибоначчи
+		//Task 2. Fibonacci numbers
 		
 		Integer [] arr2 = new Integer[20];
 		arr2[0]=1;
@@ -46,7 +46,7 @@ public class ArrayWork {
 		}
 		System.out.println("\n");
 		
-		//Задание три. Двумерный массив.
+		//Task 3. Two-dimensional array. Filled with random numbers from 10 to 99
 		
 		int [][] arr3 = new int [8][5];
 		Random rand=new Random();
